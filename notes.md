@@ -17,3 +17,10 @@ angular template syntax.
 // standalone = instruct the cli to to generate the component as a standalone component
 // inline-template = instructs cli to include a template property in the compment decorators metadata
 ng g c details --standalone --inline-template 
+
+// s = service
+ng g s housing
+
+npm install -g json-server
+
+json-server --watch db.json
